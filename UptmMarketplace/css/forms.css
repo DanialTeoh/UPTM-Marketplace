@@ -1,0 +1,14 @@
+.form {
+    padding: 1em;
+    border-radius: 1em;
+    opacity: 0.9;
+}
+
+label {
+    padding-left: 0.25em;
+}
+
+/* .upload {
+    display: block;
+    float: right;
+} */

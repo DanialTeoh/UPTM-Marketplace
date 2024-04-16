@@ -1,0 +1,110 @@
+.jumbotron {
+    background-color: #26a69a;
+    color: #f4f4f0;
+    text-align: center;
+    font-family: "Tahoma", Tahoma, sans-serif;
+}
+
+body {
+    background-color: #e8eaf6;
+    font-family: "Tahoma", Tahoma, sans-serif;
+}
+
+.navbar,
+.footer {
+    background-color: #1e81b0;
+}
+
+.footer {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    text-align: left;
+    padding: 0.5em; 
+}
+
+.right {
+    float: right;
+}
+
+table {
+    border: 1px solid black;
+}
+
+a {
+    color: #006064;
+}
+
+a:hover {
+    color: #00838f;
+}
+
+nav a, footer a {
+    color: #b3e5fc;
+    font-size: 1.1em;
+}
+
+nav a:hover, footer a:hover {
+    color: #e1f5fe;
+    text-decoration: none;
+}
+
+.messages {
+    display: block;
+    background-color: rgb(248, 248, 248);
+    border: 1px black solid;
+    padding: 0.25em;
+    border-radius: 0.25em;
+    /* margin-bottom: 0.1em; */
+    border-collapse: collapse;
+}
+
+ul{ 
+    list-style-type: none; 
+}
+
+.fa {
+    size: 1.5em;
+}
+
+.item-name {
+    float: left;
+    clear: both;
+}
+
+.contact-seller {
+    float: right;
+    clear: both;
+}
+
+.img-container {
+    position: relative;
+    display: inline-block; /* added */
+    overflow: hidden; /* added */
+    margin: 0.25em;
+}
+
+.img-container a {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.why p {
+    text-align: center;  
+}
+
+.why .small {
+    text-align: center;  
+}
+
+.card-title{
+    text-align: center;
+    color: #00897b;
+}
+
+article p{
+    text-align: center;
+}
